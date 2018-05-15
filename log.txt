@@ -1,0 +1,24 @@
+STARTED SERVER
+Waiting For Clients
+127.0.0.1:44506 has connected.
+Greetings from the cave! Now type your name (NO Longer then 15 charaters and not equal to ) and press enter!
+
+THREAD : <Thread(Thread-2, started 140070576875264)>
+
+127.0.0.1:44508 has connected.
+Greetings from the cave! Now type your name (NO Longer then 15 charaters and not equal to ) and press enter!
+
+THREAD : <Thread(Thread-3, started 140070576875264)>
+
+POST /log.txt HTTP/1.1
+Host:127.0.0.9|33000
+User-Agent:<socket.socket fd=12, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 44508), raddr=('127.0.0.9', 33000)>
+Content Type:text/plain
+Date:2018-03-04 19:35:11.369326;(25336895:11)-Hello
+Hello
+Hello
+POST /log.txt HTTP/1.1
+Host:127.0.0.9|33000
+User-Agent:<socket.socket fd=12, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 44508), raddr=('127.0.0.9', 33000)>
+Content Type:text/plain
+Date:2018-03-04 19:35:18.900521;(0:7)-Kevin
